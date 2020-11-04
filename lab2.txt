@@ -1,0 +1,24 @@
+Script started on Tue 03 Nov 2020 07:54:32 PM EST
+[cent@localhost ~]$ mkdir archive
+[cent@localhost ~]$ cd arcgh[K[K[K[K[K/log/b[Kvar[K[K[K[K[K[K[Kvar/log 
+[cent@localhost log]$ tar cvgf[K[Kf ~/archive/log/[K.tar *.log
+tar: boot.log: Cannot open: Permission denied
+tar: yum.log: Cannot open: Permission denied
+tar: Exiting with failure status due to previous errors
+[cent@localhost log]$ sa[K[Ktar cvf ~/archive/log.tar *.log[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for cent: 
+boot.log
+yum.log
+[cent@localhost log]$ cd
+[cent@localhost ~]$ cd repos
+[cent@localhost repos]$ cd cis346lab2[K[K[K[K[K[K[K246lab2/[K=[K
+[cent@localhost cis246lab2]$ mkdir backup
+[cent@localhost cis246lab2]$ cd backup
+[cent@localhost backup]$ tar xvf ..[K[K~/archive/log.tar [K
+boot.log
+yum.log
+[cent@localhost backup]$ ls
+boot.log  yum.log
+[cent@localhost backup]$ exit
+
+Script done on Tue 03 Nov 2020 08:00:56 PM EST
